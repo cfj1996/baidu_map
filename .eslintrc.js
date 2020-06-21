@@ -13,6 +13,9 @@ module.exports = {
       version: "detect",
     },
   },
+  globals: {
+    mapEvent: true,
+  },
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",

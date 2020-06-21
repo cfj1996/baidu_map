@@ -15,7 +15,7 @@ export function useBaiduMap(): BMap.Map | undefined {
   return useContext(BaiduMapContext);
 }
 
-interface BaiduMapProps {
+export interface BaiduMapProps {
   center?: string | [number, number];
   zoom?: number;
   styleId?: string;
