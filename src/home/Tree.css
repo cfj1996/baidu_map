@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+  height: 60px;
+}
+.collapse {
+  position: absolute;
+  background: #fff;
+  color: #333;
+  top: 60px;
+  left: 0;
+  z-index: 9999;
+}
