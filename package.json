@@ -36,7 +36,7 @@
     "d3-scale-chromatic": "^1.5.0",
     "geojson-to-svg": "^1.0.3",
     "geojson2svg": "^1.2.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mdi-material-ui": "^6.16.0",
     "notistack": "^0.9.17",
     "react": "^16.13.1",
