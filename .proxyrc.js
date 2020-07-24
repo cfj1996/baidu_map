@@ -4,7 +4,7 @@ module.exports = function (app) {
   dotenv.config();
   app.use(
     createProxyMiddleware(["/api/**", "!/*.*", "!/"], {
-      target: process.env.SERVER_URL || "http://127.0.0.1:7001",
+      target: process.env.SERVER_URL || "http://47.104.140.8:7001/",
       pathRewrite: {
         "^/api": "",
       },
