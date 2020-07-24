@@ -1,7 +1,10 @@
 import React, { FC, useState, useEffect, useMemo } from "react";
-import TextField from "@material-ui/core/TextField";
-import Children, { City } from "./Children";
+
 import Collapse from "@material-ui/core/Collapse";
+import TextField from "@material-ui/core/TextField";
+
+import Children, { City } from "./Children";
+
 import "./Tree.css";
 
 const TreeSelection: FC<{
